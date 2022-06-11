@@ -1,0 +1,36 @@
+@import url("https://fonts.googleapis.com/css2?family=Overpass:wght@400;700&display=swap");
+
+:root {
+    --primary-color: hsl(25, 97%, 53%);
+    --neutral-grey: hsl(217, 12%, 63%);
+    --neutral-dark-grey: hsl(216, 12%, 54%);
+    --neutral-blue: hsl(213, 19%, 18%);
+    --neutral-dark-blue: hsl(216, 12%, 8%);
+
+}
+
+*{
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Overpass", sans-serif;
+    background-color: var(--neutral-dark-blue);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+p {
+    font-size: 15px;
+}
+
+.rating-container {
+    background-color: var(--neutral-blue);
+}
+
+.thankyou-container {
+    display: none;
+}
