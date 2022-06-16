@@ -28,6 +28,7 @@ p {
 }
 
 .rating-container {
+    display: block;
     background-color: var(--neutral-blue);
     color: #fff;
     width: 400px;
@@ -72,14 +73,14 @@ p {
     cursor: pointer;
 }
 
+.number.selected-num {
+    background-color: var(--neutral-grey);
+    color: #fff;
+}
+
 .possible-ratings .number:hover {
     color: #fff;
     background-color: var(--primary-color);
-}
-
-.possible-ratings .number:active {
-    color: #fff;
-    background-color: var(--neutral-grey);
 }
 
 .submit-btn {
@@ -109,4 +110,45 @@ p {
 
 .thankyou-container {
     display: none;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--neutral-blue);
+    color: #fff;
+    width: 400px;
+    height: 400px;
+    border-radius: 25px;
+    padding: 30px;
 }
+
+.thankyou-container .user-answer {
+    color: var(--primary-color);
+    background-color: var(--neutral-dark-grey);
+    padding: 8px 15px;
+    border-radius: 50px;
+    margin: 35px 0;
+}
+
+.thankyou-title {
+    text-align: center;
+    font-size: 1.7em;
+    font-weight: 400;
+    margin: 0;
+}
+
+.thankyou-text {
+    text-align: center;
+    color: var(--neutral-grey);
+    line-height: 1.6;
+    margin: 10px 0 0 0;
+}
+
+.attribution {
+    color: var(--neutral-grey);
+    margin-top: 20px;
+}
+
+.attribution a {
+    color: var(--neutral-dark-grey);
+}
+

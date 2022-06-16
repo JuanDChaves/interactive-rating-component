@@ -15,7 +15,7 @@
 <body>
 
   <!-- Rating state start -->
-  <div class="rating-container">
+  <div class="rating-container" id="rating-container">
     <img src="./images/icon-star.svg" alt="Star">
     <div class="question">
       <h4 class="question-title">How did we do?</h4>
@@ -26,11 +26,11 @@
       </p>
     </div>
     <div class="possible-ratings">
-      <span class="number">1</span>
-      <span class="number">2</span>
-      <span class="number">3</span>
-      <span class="number">4</span>
-      <span class="number">5</span>
+      <span class="number" id="number">1</span>
+      <span class="number" id="number">2</span>
+      <span class="number" id="number">3</span>
+      <span class="number" id="number">4</span>
+      <span class="number" id="number">5</span>
     </div>
     <button class="submit-btn" id="submit-btn">Submit</button>
   </div>
@@ -39,13 +39,13 @@
 
   <!-- Thank you state start -->
 
-  <div class="thankyou-container">
+  <div class="thankyou-container" id="thankyou-container">
     <img src="./images/illustration-thank-you.svg" alt="Mobile device image">
     <div class="user-answer">
       You selected
-      <!-- Add rating here --> out of 5
+      <span id="result"></span> out of 5
     </div>
-    <div class="thankyou">
+    <div>
       <h4 class="thankyou-title">Thank you!</h4>
       <p class="thankyou-text">
         We appreciate you taking the time to give a rating. If you ever need more support,
