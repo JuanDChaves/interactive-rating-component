@@ -28,8 +28,8 @@ Users should be able to:
 
 ### Links
 
-- [Solution URL: ](https://github.com/JuanDChaves/interactive-rating-component)
-- [Live Site URL: ](https://juandchaves.github.io/interactive-rating-component/)
+- [Solution URL](https://github.com/JuanDChaves/interactive-rating-component)
+- [Live Site URL](https://juandchaves.github.io/interactive-rating-component/)
 
 ## Author
 
